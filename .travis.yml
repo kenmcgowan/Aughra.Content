@@ -2,3 +2,6 @@ language: csharp
 mono: none
 dotnet: 2.1.4
 solution: Aughra.Content.sln
+script:
+   - dotnet restore
+   - dotnet build
