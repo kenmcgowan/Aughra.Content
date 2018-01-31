@@ -5,3 +5,5 @@ solution: Aughra.Content.sln
 script:
    - dotnet restore
    - dotnet build
+   - cd Aughra.Content.Tests
+   - dotnet xunit
